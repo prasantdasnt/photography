@@ -1,0 +1,112 @@
+<html>
+
+
+<link href="todo.css" rel="stylesheet"/>
+<body>
+<div class = header style="height:95px;width:100%;background-color:black;">
+
+  <div id="primary_nav_wrap">
+  <ul style="float:right;padding-top:63px;padding-right:15px;width:973px;">
+	  	<li>
+	  	<a href="index.html" style="color:white">HOME<a>
+			
+	  	</li>
+  	
+	  	<li>
+	  	<a href="http://localhost:8888"style="color:white;">FASHION</a>
+	  	</li>
+	  	<li>
+	  	<a href="portrait2.html"style="color:white;">PORTRAITS</a>
+	  	</li>
+	  	<li>
+	  	<a href="http://localhost:8888"style="color:white">LIFESTYLE</a>
+	  	</li>
+	  	<li>
+	  	<a href="about.html"style="color:white">ABOUT</a>
+	  	</li>
+	  	<li>
+	  	<a href="contact.html"style="color:white">CONTACT</a>
+	  	</li>
+
+	  	
+  </ul>
+	
+   </div>
+</div>
+<!-- <div> -->
+
+	<div style="height:466px;width:30%;background-color:blue; float:left;">
+	<p>	TEST</p>
+		
+	</div>
+
+	<div id="slider" style="height:466px;width:70%;background-color:blue; float:right;">
+	<figure>
+	<img src="image/pic1.jpg">
+	<img src="image/pic2.jpg">
+	<img src="image/pic3.jpg">
+	<img src="image/pic4.jpg">
+	</figure>
+	</div>
+<!-- </div> -->
+
+
+<div class="footer" style="height:126px;width:100%;background-color:black;margin-top: 466px">
+
+	
+</div>
+</body>
+<style type="text/css">
+	.myst{
+		display:inline;
+		font-family: Arial, Sans-Serif;
+		font-size: 20;
+		font-weight: bold;
+		 margin:0 160 10px 0;
+		 text-decoration:none;
+
+	}
+	
+     #primary_nav_wrap a:hover{
+	           color: red !important;
+	            background-color: none !important;
+               }
+                 a{
+                 	    font-family: "HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif;
+                 }
+	
+
+</style>
+<style type="text/css">
+
+@keyframes slidy {
+0% { left: 0%; }
+20% { left: 0%; }
+25% { left: -100%; }
+45% { left: -100%; }
+50% { left: -200%; }
+70% { left: -200%; }
+75% { left: -300%; }
+95% { left: -300%; }
+100% { left: -400%; }
+}
+
+body { margin: 0; } 
+div#slider { overflow: hidden; }
+div#slider figure img { width: 20%; float: left; }
+div#slider figure { 
+  position: relative;
+  width: 500%;
+  margin: 0;
+  left: 0;
+  text-align: left;
+  font-size: 0;
+  animation: 30s slidy infinite; 
+}
+
+</style>
+				
+
+  
+
+</html>	
